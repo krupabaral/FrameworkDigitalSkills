@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNGFramework">
+	<listeners><listener class-name="FrameworkPkg.Listener"/></listeners>
+  <test thread-count="5" name="CarTaxCheck">
+    <classes>
+      <class name="FrameworkPkg.MainClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
